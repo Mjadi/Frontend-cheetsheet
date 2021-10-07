@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>float and clear</title>
+    <style>
+        .fruits {
+            background-color: rgb(64, 148, 148);
+            border: 3px solid rgb(75, 58, 170);
+            padding: 20px;
+            margin: 30px 10px;
+            /* width: 700px; */
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+
+        .container {
+            border: 4px solid tomato;
+            margin-top: 99px;
+            background-color: yellowgreen;
+        }
+
+        #item {
+            float: left;
+            width: 50%;
+        }
+
+        #item2 {
+            float: right;
+            width: 50%;
+        }
+        #item3 {
+            clear: both;
+            
+            /* width: 100%; */
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My junk store</h1>
+        <div class="fruits" id="item">
+            <h3>Plants</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit officia architecto accusantium
+                esse veritatis quisquam natus nostrum sequi, earum sapiente! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nesciunt doloremque error modi nihil illum aut, tempore deleniti minus quo, tempora alias ut dicta sit eum sapiente unde? Non, dolor!</p>
+        </div>
+        <div class="fruits" id="item2">
+            <h3>Garbage</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit officia architecto accusantium
+                esse veritatis quisquam natus nostrum sequi, earum sapiente! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolorem blanditiis illo impedit rerum, labore quas eveniet doloribus reiciendis incidunt, modi amet totam voluptatibus aperiam accusantium ipsa quos nobis molestiae.</p>
+        </div>
+        <div class="fruits" id="item3">
+            <h3>Bottles</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit officia architecto accusantium
+                esse veritatis quisquam natus nostrum sequi, earum sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</body>
+
+</html>

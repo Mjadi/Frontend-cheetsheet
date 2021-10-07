@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexboxes</title>
+    <style>
+        .container {
+            height: 344px;
+            width: 100%;
+            border: 2px solid yellowgreen;
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: wrap; */
+            /* flex-flow: row-reverse wrap; */
+            flex-direction: row;
+            /* justify-content: center;
+            justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+
+        .item {
+            width: 200px;
+            height: 120px;
+            background-color: tomato;
+            margin: 7px;
+            padding: 12px;
+        }
+
+        #one {
+            order: 4;
+            flex-grow: 2;
+            flex-basis: 400px;
+            flex-shrink: 1;
+        }
+
+        #second {
+            flex-shrink: 3;
+            flex-grow: 4;
+            order: 100;
+        }
+
+        #third {
+            flex: 2 3 400px;
+            align-self: flex-end;
+            align-self: flex-start;
+            align-self: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Another one</h1>
+    <div class="container">
+        <div class="item" id="one">1</div>
+        <div class="item" id="second">2</div>
+        <div class="item" id="third">3</div>
+        <!-- <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div> -->
+    </div>
+</body>
+
+</html>

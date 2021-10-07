@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute nth</title>
+    <style>
+        input {
+            display: block;
+        }
+
+        .container {
+            margin: auto;
+            display: block;
+            width: 233px;
+
+        }
+
+        input[type='text'] {
+            background-color: aqua;
+        }
+
+        a[target="_self"] {
+            color: chocolate;
+            font-size: 56px;
+        }
+
+        input[type="submit"] {
+            border: 2px solid navy;
+            
+        }
+
+        li:nth-child(2) {
+            text-align: right;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h2><a href="http://youtube.com" target="_blank">Got to chill</a></h2>
+        <h2><a href="http://github.com" target="_self">Got to chill</a></h2>
+        <form action="" class="form-con">
+            <input type="text" placeholder="Enter text">
+            <input type="password" name="" id="" placeholder="Enter passcode">
+            <input type="submit" value="Done">
+            <ul>
+                <li class="item" id="item1">1</li>
+                <li class="item" id="item2">2</li>
+                <li class="item" id="item3">3</li>
+                <li class="item" id="item4">4</li>
+                <li class="item" id="item5">5</li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('image.jpg');
+    color: honeydew;
+    
+}
+
+.logo{
+    /* border: 2px solid goldenrod; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    /* background: url(gym.png); */
+}
+
+.nav{
+    /* border: 2px solid salmon; */
+    display: block;
+    width: 33%;
+    margin: 27px auto;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+}
+
+.buttons{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid forestgreen; */
+}
+
+.top{
+    display: inline-block;
+}
+
+.top li{
+    display: inline-block;
+}
+
+.top a{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 40px 25px;
+}
+
+.top li a:hover, .top li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.logo img {
+    width: 72px;
+    border-radius: 50%;
+    display: block;
+    
+}
+
+
+.btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 10px;
+    padding: 4px 14px;
+    color: white;
+    background-color: rgba(46, 42, 42, 0.938);
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 20px;
+    border: 2px solid grey;
+
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 120px 1071px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form input {
+    text-align: center;
+    display: block;
+    width:508px ;
+    padding: 6px;
+    border: 2px solid grey;
+    margin: 16px auto;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family:  'Varela Round', sans-serif;
+}
+
+
+#birth h3 {
+    text-align: center;
+}
+
+.container h2 {
+    font-family: 'Varela Round', sans-serif;
+
+    text-align: center;
+    
+}
+
+.sub {
+    width: 90px;
+}

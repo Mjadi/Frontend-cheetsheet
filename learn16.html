@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 3px solid forestgreen;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        #box2 {
+            /* Sticky does not leave position but fixed does  */
+            position: sticky;
+            top: 6px;
+            /* top: 50px;
+            left: 140px; */
+            /* right: 4px;
+            bottom: 2px; */
+        }
+
+        header {
+            background-color: brown;
+            height: 9000px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="box">4</div>
+    <div class="box" id="box2">5</div>
+    <div class="box">7</div>
+    <div class="box">2</div>
+    </header>
+</body>
+</html>

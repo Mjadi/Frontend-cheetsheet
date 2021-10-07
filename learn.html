@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My playground</title>
+	<script>
+		localStorage.setItem("author", "Mjadi");
+		console.log("Damn")
+	</script>
+	<link rel="stylesheet" type="text/css" href="learn.css">
+</head>
+<body>
+	<h2 align="center">My form</h2><hr>
+	<div class="form">
+	<form>
+		<div>
+		Name: <input type="text">
+		</div>
+		<hr>
+		<div>
+		Role: <input type="text">
+		</div>
+		<hr>
+		<div class="email">
+			Email: <input type="email">
+		</div>
+		<hr>
+		<div>
+			Number: <input type="number">
+		</div>
+		<hr>
+		<div>
+			Gender: Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> 
+		</div>
+		<hr>
+		<div>
+			Date: <input type="date">
+		</div>
+		<hr>
+		<div>
+			<label for="select">Car</label>
+			<select id="select">
+				<option>Indica</option>
+				<option>Audi</option>
+			</select>
+		</div>
+		<hr>
+		<div>
+			Are you human: <input type="checkbox" checked>
+
+		</div>
+		<hr>
+		<div>
+			<input type="submit" value="Submit kar">
+			<input type="reset" value="Erase">
+		</div>
+	</form>
+</div>
+<div class="textarea">
+	<h3 align="center" id="label">Type your details</h3>
+<textarea name="mytext" rows="10" cols="30"></textarea>
+</div>
+</body>
+</html>

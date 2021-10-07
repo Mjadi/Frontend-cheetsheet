@@ -1,0 +1,20 @@
+/* {
+	margin: 0px;
+	padding: 0px;
+}*/
+
+body {
+	background-color: violet;
+}
+
+/*.email {
+	background-color: red;
+}*/
+
+.form {
+	background-color: skyblue;
+}
+
+#label {
+	color: darkgreen;
+}
